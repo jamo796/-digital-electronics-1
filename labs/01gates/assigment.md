@@ -1,0 +1,1 @@
+## TOTO SE ODEVZDAVA
