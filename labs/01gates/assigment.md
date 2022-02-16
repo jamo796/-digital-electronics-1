@@ -14,8 +14,8 @@ begin
 	-- necht je A = X , B = Y , C = Z
     f_org_o  <= (not(b_i) and a_i) or (not(c_i) and not(b_i));
     f_nand_o <= ( a_i nand ( b_i nand b_i ) )   nand ( ( b_i nand b_i ) nand (c_i nand c_i) );
-	f_nor_o <= ((((a_i nor a_i) nor b_i) nor (b_i nor c_i))   nor  (((a_i nor a_i) nor b_i) nor (b_i nor c_i))); 
-	f_firl_o <= (a_i and b_i) or (a_i and c_i);
+    f_nor_o <= ((((a_i nor a_i) nor b_i) nor (b_i nor c_i))   nor  (((a_i nor a_i) nor b_i) nor (b_i nor c_i))); 
+    f_firl_o <= (a_i and b_i) or (a_i and c_i);
     f_firr_o <= a_i and (b_i or c_i);
     f_secl_o <= (a_i or b_i) and (a_i or c_i);
     f_secr_o <= a_i or (b_i and c_i);
