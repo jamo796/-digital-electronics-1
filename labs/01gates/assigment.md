@@ -1,4 +1,7 @@
-# Lab 1: YOUR_FIRSTNAME LASTNAME
+# Lab 1: JAN PELKA
+
+### ODKAZ NA GITHUB:
+[GitHub - Jan Pelka](https://github.com/jamo796/-digital-electronics-1/blob/main/labs/01gates/assigment.md)
 
 ### De Morgan's laws
 
