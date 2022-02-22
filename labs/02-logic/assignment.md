@@ -30,7 +30,7 @@
 
 	s_b <= "0011"; s_a <= "1001"; wait for 100ns;
         assert ((s_B_greater_A = '1') and (s_B_equals_A = '1') and (s_B_less_A = '1'))
-        report "Test failed for input combination: 0000, 0000" severity error;
+        report "Test failed for input combination: 1001, 0011" severity error;
 
 -- ZDE JE SCHVALNE NAPSANA CHYBA
     
