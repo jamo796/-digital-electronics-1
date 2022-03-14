@@ -2,7 +2,7 @@
 
 ### PREPARATION - TASK:
 
-IMG schematic
+!()[https://github.com/jamo796/-digital-electronics-1/blob/main/labs/04-segment/img/SchemaLed.png]
 
    | **Hex** | **Inputs** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
    | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
