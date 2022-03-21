@@ -1,6 +1,6 @@
 
 
-
+![](https://github.com/jamo796/-digital-electronics-1/blob/main/labs/06-counter/276141279_1910910985772372_7646502818371959365_n.jpg)
 
 | **Time interval** | **Number of clk periods** | **Number of clk periods in hex** | **Number of clk periods in binary** |
 | :-: | :-: | :-: | :-: |
