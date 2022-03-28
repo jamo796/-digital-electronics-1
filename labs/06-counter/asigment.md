@@ -36,8 +36,15 @@
 ```
 
 2. Screenshot with simulated time waveforms. Test reset as well. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
-
-   ![your figure]()
+    ukazka resetu
+   ![your figure](https://github.com/jamo796/-digital-electronics-1/blob/main/labs/06-counter/img/ukazka%20reset.png)
+    zmena smeru čítání   
+   ![your figure](https://github.com/jamo796/-digital-electronics-1/blob/main/labs/06-counter/img/zmena%20smeru.png)
+    s_en sestupná hrana
+   ![your figure](https://github.com/jamo796/-digital-electronics-1/blob/main/labs/06-counter/img/odebrani%20povoleni%20k%20citani.png)
+    s_en_nástupní hrana
+   ![your figure](https://github.com/jamo796/-digital-electronics-1/blob/main/labs/06-counter/img/opetovne%20povoleni%20citani.png)
+   
 
 ### Two counters
 
