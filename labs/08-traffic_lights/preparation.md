@@ -1,3 +1,5 @@
+![](https://github.com/jamo796/-digital-electronics-1/blob/main/labs/08-traffic_lights/img/n4r.png)
+
 
 | **RGB LED** | **Artix-7 pin names** | **Red** | **Yellow** | **Green** |
 | :-: | :-: | :-: | :-: | :-: |
