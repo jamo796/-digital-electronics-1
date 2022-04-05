@@ -42,8 +42,49 @@
                         end if;
 
                     when WEST_GO =>
-                        -- WRITE OTHER STATES HERE
+                        if (s_cnt < c_DELAY_4SEC) then
+                            s_cnt <= s_cnt + 1; -- jeste neni na danem case a je treba cekat
+                            
+                        else
+                            s_state <= WEST_WAIT; -- next state
+                            s_cnt <= c_zero; -- reset counter
+                        end if;
+                            
+                    when WEST_WAIT =>                            
+                        if (s_cnt < c_DELAY_2SEC) then
+                            s_cnt <= s_cnt + 1;
+                            
+                        else
+                            s_state <= STOP2; -- next state
+                            s_cnt <= c_zero; -- reset counter
+                            
+                        end if;
 
+                    when STOP2 =>                            
+                        if (s_cnt < c_DELAY_1SEC) then
+                            s_cnt <= s_cnt + 1;
+                            
+                        else
+                            s_state <= SOUTH_GO; -- next state
+                            s_cnt <= c_zero; -- reset counter
+                            
+                        end if;
+
+                    when SOUTH_GO =>                            
+                        if (s_cnt < c_DELAY_4SEC) then
+                            s_cnt <= s_cnt + 1;
+                        else
+                            s_state <= SOUTH_WAIT; -- next state
+                            s_cnt <= c_zero; -- reset counter                            
+                        end if;
+
+                    when SOUTH_WAIT =>                            
+                        if (s_cnt < c_DELAY_2SEC) then
+                            s_cnt <= s_cnt + 1;
+                        else
+                            s_state <= STOP1; -- next state
+                            s_cnt <= c_zero; -- reset counter                            
+                        end if;
 
                     -- It is a good programming practice to use the 
                     -- OTHERS clause, even if all CASE choices have 
@@ -55,6 +96,7 @@
             end if; -- Synchronous reset
         end if; -- Rising edge
     end process p_traffic_fsm;
+
 ```
 
 3. Screenshot with simulated time waveforms. The full functionality of the entity must be verified. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
